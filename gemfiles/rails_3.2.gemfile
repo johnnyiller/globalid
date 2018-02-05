@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "activemodel", :github => "rails/rails", :branch => "3-2-stable"
+gem "railties", :github => "rails/rails", :branch => "3-2-stable"
+
+gemspec path: "../"
